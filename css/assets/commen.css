@@ -35,11 +35,13 @@ border-radius: 32.5px;
 display: grid;
 place-items: center;
 color: white;
-font-size: 20px;
+font-size:clamp(8px ,4vw  , .888rem);
 font-weight: 700;
 line-height: 24px;
 background-color: var(--clr-main-blue);
-padding:20px;
+width:min(200px , 80%);
+height: 50px;
+
  }
 
  .circal-bhind-phone {
@@ -72,3 +74,29 @@ padding:20px;
     line-height: 18px;
     color: #AFB7CF;    
  }
+
+.app-store-icon {
+    img {
+        max-width: 200px;
+    }
+    
+}
+.playstore-icon {
+    img {
+        max-width: 200px;
+    }
+}
+
+.footer-app-store-icon {
+    img {
+        width: 50% ;
+        margin-inline: auto;
+        margin-bottom: 5px;
+    }
+}
+.footer-playstore-icon {
+    img {
+        width: 50% ;
+        margin-inline: auto;
+    }
+}
