@@ -1,0 +1,43 @@
+.bg-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.468);
+    z-index: 5;
+    opacity: 0;
+    display: none;
+}
+
+.bg-shadow.active {
+    opacity: 1;
+    display: block;
+}
+
+.circal-green {
+    right: 0;
+    top: -5rem;
+}
+
+.section-titel {
+    font-size:clamp(20px ,4vw ,45px );
+font-weight: 800;
+line-height:clamp(25px ,4vw ,55px );
+color: var(--clr-blue-gray);
+    span {
+        color: var(--clr-green-light);
+    }
+}
+
+.big-blue-button  {
+border-radius: 32.5px;
+display: grid;
+place-items: center;
+color: white;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+background-color: var(--clr-main-blue);
+padding:20px;
+ }
