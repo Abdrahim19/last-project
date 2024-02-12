@@ -18,36 +18,210 @@
     <div class="bg-shadow">
     </div>
     <header class="home-header">
-        <div class="container flex-items justify-content-between py-1">
+        <div class="container-md flex-items justify-content-between py-1">
             <a href="index.html" class="home-logo"> 
-                <img src="" alt="">
+                <img src="./public/logo.png" alt="">
             </a>
-            <ul class="flex-items justify-content-between">
-                <li><a href="#" class="flex-items">
-                    Accueil
+            <ul class="d-md-flex menu-container flex justify-content-between">
+                <li class="topmenu-link active"><a href="#" class="flex-items gap-2 active">
                     <i class="bi bi-house"></i>
-                </a></li>
-                <li><a href="#" class="flex-items">
                     Accueil
-                    <img src="./public/" alt="">
                 </a></li>
-                <li><a href="#" class="flex-items">
-                    Accueil
-                    <img src="./public/" alt="">
+                <li class="topmenu-link"><a href="#" class="flex-items gap-2">
+                    <i class="bi bi-people-fill"></i>
                 </a></li>
-                <li><a href="#" class="flex-items">
-                    Accueil
-                    <img src="./public/" alt="">
+                <li class="topmenu-link"><a href="#" class="flex-items gap-2">
+                    <i class="bi bi-plus-circle"></i>
+                </a></li>
+                <li class="topmenu-link"><a href="#" class="flex-items gap-2">
+                    <i class="bi bi-envelope"></i>
                 </a></li>
             </ul>
-            <div class="flex-items" style="gap: 15px;">
+            <div class="flex-items position-relative" style="gap: 15px;">
                 <div class="price-box">
                     <span>180€</span>
                 </div>
-                <img src="" class="header-user-img" alt="">
+                <div class="user-popup-info d-grid gap-3 p-3">
+                    <div class="flex-items gap-3">
+                        <p class="underline-name flex-1 text-decoration-underline">Morgan louis</p>
+                        <div class="small-price-box">
+                            <span>180€</span>
+                        </div>
+                    </div>
+                    <hr class="sparaiter">
+                    <a href="" class="d-flex align-items-center gap-3 link">
+                    <i class="bi bi-plus-circle"></i>
+                    Mes demandes
+                    </a>
+                    <a href="" class="d-flex align-items-center gap-3 link">
+                        <i class="bi bi-currency-euro"></i>
+                    Mon solde
+                    </a>
+                    <hr class="sparaiter">
+                    <a href="" class="d-flex align-items-center gap-3 link">
+                        <i class="bi bi-info-circle"></i>                   
+                         Centre d’aide
+                    </a>
+                    <a href="" class="d-flex align-items-center gap-3 link">
+                        <i class="bi bi-info-circle"></i>                   
+                         À propos
+                    </a>
+                    <hr class="sparaiter">
+                    <a href="" class="d-flex align-items-center gap-3 link">
+                    <i class="bi bi-box-arrow-right"></i>
+                    Déconnexion
+                    </a>
+
+                </div>
+                <img src="./public/request-imges/Image-40.png" class="header-user-img" alt="">
             </div>
         </div>
-      </header>
+    </header>
+    <div class="main-page d-flex justify-content-center py-4">
+        <div class="row gap-5 gap-lg-0 container">
+            <div class="col-lg-8">
+                <div class="user-input-post w-100">
+                <img src="./public/Image-40.png" class="user-post-img" alt="">
+                 <input type="text" 
+                 class="post-input"
+                 placeholder="De quoi avez-vous besoin aujourd'hui, Aya H. ?">
+                </div>
+                <div class="user-post ">
+                <div class="row p-4">
+                    <div class="col-2 px-0 text-center">
+                <img src="./public/request-imges/Image-40.png"
+                 class="user-post-img img-fluid" style="height: clamp(30px ,4vw , 60px);" alt="">
+                    </div>
+                <div class="col-10">
+                    <div class="flex-items">
+                        <h1 class="user-name flex-1">Gilberto B.</h1>
+                        <p class="publich-time">Hier à 13h</p>
+                    </div>
+                    <span class="user-loction">Vienne (Jean-Moulin) - 13,4 km</span>
+                </div>
+                    </div>
+                    <img src="./public/image 1 (1).png" class="post-img" alt="">
+                    <div class="p-4">
+                    <p class="post-discrption">Bonjour, Je cherche un plombier pour remplacer un wc à poser assez
+                    rapidement. Je joins de photos de l'existant et de celui que nous avons commandé.</p>
+                    <hr class="post-line">
+                    <div class="flex-items gap-3 justify-content-end">
+                        <a href="">
+                            <i class="bi bi-suit-heart"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-people"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-chat"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div class="user-post ">
+                    <div class="row p-4">
+                        <div class="col-2 px-0 text-center">
+                    <img src="./public/request-imges/Image-40.png"
+                     class="user-post-img img-fluid" style="height: clamp(30px ,4vw , 60px);" alt="">
+                        </div>
+                    <div class="col-10">
+                        <div class="flex-items">
+                            <h1 class="user-name flex-1">Gilberto B.</h1>
+                            <p class="publich-time">Hier à 13h</p>
+                        </div>
+                        <span class="user-loction">Vienne (Jean-Moulin) - 13,4 km</span>
+                    </div>
+                        </div>
+                        <img src="./public/image 1 (1).png" class="post-img" alt="">
+                        <div class="p-4">
+                        <p class="post-discrption">Bonjour, Je cherche un plombier pour remplacer un wc à poser assez
+                        rapidement. Je joins de photos de l'existant et de celui que nous avons commandé.</p>
+                        <hr class="post-line">
+                        <div class="flex-items gap-3 justify-content-end">
+                            <a href="">
+                                <i class="bi bi-suit-heart"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-people"></i>
+                            </a>
+                            <a href="">
+                                <i class="bi bi-chat"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="user-post ">
+                        <div class="row p-4">
+                            <div class="col-2 px-0 text-center">
+                        <img src="./public/request-imges/Image-40.png"
+                         class="user-post-img img-fluid" style="height: clamp(30px ,4vw , 60px);" alt="">
+                            </div>
+                        <div class="col-10">
+                            <div class="flex-items">
+                                <h1 class="user-name flex-1">Gilberto B.</h1>
+                                <p class="publich-time">Hier à 13h</p>
+                            </div>
+                            <span class="user-loction">Vienne (Jean-Moulin) - 13,4 km</span>
+                        </div>
+                            </div>
+                            <img src="./public/image 1 (1).png" class="post-img" alt="">
+                            <div class="p-4">
+                            <p class="post-discrption">Bonjour, Je cherche un plombier pour remplacer un wc à poser assez
+                            rapidement. Je joins de photos de l'existant et de celui que nous avons commandé.</p>
+                            <hr class="post-line">
+                            <div class="flex-items gap-3 justify-content-end">
+                                <a href="">
+                                    <i class="bi bi-suit-heart"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-people"></i>
+                                </a>
+                                <a href="">
+                                    <i class="bi bi-chat"></i>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="Demande-card">
+                    <div class="flex-items mb-3" style="gap: 1rem;">
+                        <img src="./public/world 1.png" alt="">
+                        <a href="#" class="flex-items gap-3 Demande-link">
+                            Demande publique
+                            <img src="./public/Vector (1).png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <input type="text" class="inputText w-100 px-4" placeholder="Bonjour, " />
+                        <span class="floating-label">Décrivez votre besoin</span>
+                    </div>
+                    <div class="uplode-file">
+                        <p class="uplode-titel mb-3">Ajoutez des photos pour illustrer votre besoin :</p>
+                        <div class="uploder-file-placeholder cenetr-grid text-center">
+                            <i class="bi bi-cloud-arrow-up"></i>
+                            <p class="uplode-discrption">faites glisser et déposez votre photo</p>
+                        </div>
+                    </div>
+                    <hr class="line-sparaiter">
+                    <div class="flex-items justify-content-between">
+                        <p class="Lieu-text">Lieu</p>
+                        <a href="#" class="domicile-link">
+                            Mon domicile <strong>></strong>
+                        </a>
+                    </div>
+                    <button class="green-button mt-4">Poster ma demande</button>
+                </div>
+                <div class="Proposez-card">
+                    <h1 class="Proposez-titel">Proposez vos services</h1>
+                    <p class="Proposez-discrption">Arrondissez vos fins de mois ou développez
+                         votre activité professionnelle, 
+                        en répondant aux demandes postées autour de chez vous.</p>
+                    <button class="green-outline-button mt-4">Devenir offreur</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- js files  -->
     <script type="module" src="./js/script.js"></script>
