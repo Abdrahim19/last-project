@@ -361,7 +361,7 @@ margin-inline: auto;
 
 /* start auth section */
 .auth-box {
-  max-width:1044px  ;
+  max-width: min(1200px , 90%);
     z-index: 15;
     position: fixed;
     left: 50%;
@@ -388,7 +388,7 @@ margin-inline: auto;
     .step-box {
       border: 4px solid #f1f1f1;
       outline: 4px solid #30447F;
-      width:clamp(45px , 4vw,80px );
+      width:60px;
       aspect-ratio: 1;
       display: grid;
       place-items: center;
@@ -421,14 +421,14 @@ margin-inline: auto;
   
   .singup-box {
   max-width: 383px;
-  height:clamp(25px ,5vw ,60px );
+  height:clamp(40px ,4vw ,60px );
   padding: 1rem;
   border-radius: 40px;
   background-color: white;
   font-size:clamp(8px ,4vw , 1rem);
   font-weight: 400;
   img {
-    width:clamp(1rem ,4vw ,35px );
+    height:clamp(1.5rem ,4vw ,25px );
     aspect-ratio: 1;    
     }
   &.Facebook {
@@ -452,7 +452,7 @@ margin-inline: auto;
   border-radius: 16px;
   outline: none;
   font-family: var(--ff-monserrat);
-  height:clamp(35px ,4vw , 60px);
+  height:45px;
  
 background: rgba(255, 253, 253, 0.019999999552965164);
  

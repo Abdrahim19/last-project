@@ -11,31 +11,40 @@ const popup_socil_media = document.getElementById('popup-socil-media-auth');
 const popup_sign_up_particulier = document.getElementById('popup-sign-up-particulier');
 const popup_type_singup = document.getElementById('popup-type-singup');
 const popup_sign_up_association = document.getElementById('popup-sign-up-association');
-const user_popup_info = document.querySelector('.user-popup-info')
+const user_popup_info = document.querySelector('.user-popup-info');
 
 
 // handel singup popup
 
 S_inscrire_button.addEventListener('click' , () => {
-    popup_sign_up_particulier.classList.add('active');
+  popup_socil_media.classList.add('active');
     shadow.classList.add('active');
   })
   
 
   shadow.addEventListener('click' , () => {
     shadow.classList.remove('active');
+    popup_socil_media.classList.remove('active');
     popup_sign_up_particulier.classList.remove('active');
+    popup_type_singup.classList.remove('active'); 
+    popup_sign_up_association.classList.remove('active');
+    user_popup_info.classList.remove('active'); 
   })
 
   close.addEventListener('click' , () => {
-    shadow.classList.remove('active');
-    popup_sign_up_particulier.classList.remove('active');
+  shadow.classList.remove('active');
+popup_socil_media.classList.remove('active');
+popup_sign_up_particulier.classList.remove('active');
+popup_type_singup.classList.remove('active'); 
+popup_sign_up_association.classList.remove('active');
+user_popup_info.classList.remove('active'); 
   })
+
   connecter_button.addEventListener('click' , () => {
-    console.log('hamza is the best');
     popup_socil_media.classList.add('active');
     shadow.classList.add('active');
   })
+
 
 //   headerUserImg.addEventListener('click' , () => {
 //     user_popup_info.classList.toggle('active')

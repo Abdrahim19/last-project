@@ -37,7 +37,7 @@ body {
 }
 
 header {
-    --header-height: 15vh;
+    --header-height:clamp(10vh , 5vw ,15vh );
     height: var(--header-height);
     .navlink {
 font-size: clamp(10px , 4vw ,1rem );
@@ -72,8 +72,7 @@ color: var(--clr-blue-gray);
 }
 
 .hero-section {
-    --hero-height: 85vh;
-    min-height: var(--hero-height);
+    min-height:calc(100vh - var(--header-height));
     background-color: #F1F6F9;
     border-radius: 20px;
     .hero-background {
