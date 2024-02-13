@@ -37,7 +37,7 @@ body {
 }
 
 header {
-    --header-height:15vh;
+    --header-height: 15vh;
     height: var(--header-height);
     .navlink {
 font-size: clamp(10px , 4vw ,1rem );
@@ -62,8 +62,7 @@ line-height: 24px;
 color: var(--clr-blue-gray);
     }
     .website-logo {
-        max-width: clamp(30px, 10vw, 69px);
-        height: clamp(33px, 11.25vw, 75px);
+        max-width: clamp(30px, 5vw, 69px);
     }
 }
 
@@ -73,19 +72,18 @@ color: var(--clr-blue-gray);
 }
 
 .hero-section {
-    --hero-height:85vh;
+    --hero-height: 85vh;
     min-height: var(--hero-height);
     background-color: #F1F6F9;
     border-radius: 20px;
     .hero-background {
         .hero-logo {
-            width: min(220px, 100%);
-            height: min(83px, 30vh);
+            width: min(220px, 50%);
         }
         .hero-titel {
-font-size:clamp(25px ,5vw ,35px);
+font-size:clamp(20px ,5vw ,30px);
 font-weight: 800;
-line-height:clamp(30px ,5vw ,45px );
+line-height:clamp(30px ,5vw ,40px );
         }
         .hero-discrption {
 font-size: 20px;
@@ -359,6 +357,7 @@ line-height: 24px;
 }
  
 /* end Communauté section */
+
 /* start apliction section */
 .apliction-section {
     background-color: #99C4E717;
@@ -370,6 +369,47 @@ line-height: 24px;
     }
 }
 /* end apliction section */
+
+/* start first popup  */
+.btn-white-shadow {
+    width: 100%;
+min-height: 47px; 
+background: #ffffff;
+border-radius: 23.5px;
+box-shadow: 0px 4px 4px rgba(190, 190, 190, 0.46);
+font-style: normal;
+font-weight: 500;
+font-size:clamp(8px ,4vw , 14px);
+line-height: 20px;
+color: #30447f;
+display: grid;
+place-items: center;
+&.entreprise {
+    border: 4px solid #99c3e7;
+}
+} 
+.line-ou {
+width: 100%;
+border: 0.699999988079071px solid #afb7cf;
+} 
+.ou-text {
+font-family: var(--ff-inter);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #afb7cf;
+} 
+.subtitel-popup {
+font-style: normal;
+font-weight: 500;
+font-size: clamp(10px ,4vw , 1.3rem);
+line-height: 29px; 
+color: #aeb6cf;
+text-align: center;
+}
+/* end first popup  */
+
 
 
 

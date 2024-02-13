@@ -42,9 +42,9 @@
                     <span>180€</span>
                 </div>
                 <div class="user-popup-info d-grid gap-3 p-3">
-                    <div class="flex-items gap-3">
-                        <p class="underline-name flex-1 text-decoration-underline">Morgan louis</p>
-                        <div class="small-price-box">
+                    <div class="flex-items justify-content-between gap-3">
+                        <p class="underline-name text-decoration-underline">Morgan louis</p>
+                        <div class="small-price-box px-2">
                             <span>180€</span>
                         </div>
                     </div>
@@ -73,7 +73,9 @@
                     </a>
 
                 </div>
-                <img src="./public/request-imges/Image-40.png" class="header-user-img" alt="">
+                <button id="profile-img">
+                    <img src="./public/request-imges/Image-40.png" class="header-user-img" alt="">
+                </button>
             </div>
         </div>
     </header>
@@ -223,7 +225,59 @@
         </div>
     </div>
 
+    <!-- start uplode popup  -->
+    <section id="uplode post" class="uplode-post-popup py-3 row bg-white">
+      <div class="text-end">
+        <button>
+          <i class="bi bi-x-lg" style="font-size:min(40px ,20px );"></i>
+        </button>
+      </div>
+      <div class="flex-items mb-3" style="gap: 1rem;">
+        <img src="./public/world 1.png" alt="">
+        <a href="#" class="flex-items fw-medium gap-3 Demande-link">
+            Demande publique
+            <img src="./public/Vector (1).png" alt="">
+        </a>
+    </div>
+    <div class="col-10 mx-auto">
+        <input required='' type='text'>
+        <label alt='Adresse postale' placeholder='Décrivez votre besoin'></label>      
+    </div>
+    <div class="uplode-file">
+        <p class="uplode-titel mt-4 mb-3">Ajoutez des photos pour illustrer votre besoin :</p>
+        <div class="uploder-file-placeholder cenetr-grid text-center">
+            <i class="bi bi-cloud-arrow-up"></i>
+            <p class="uplode-discrption">faites glisser et déposez votre photo</p>
+        </div>
+    </div>
+    <hr class="mt-4" style="height:2px; background-color:#afb7cf ;">
+    <div class="flex-items justify-content-between">
+        <p class="Lieu-text">Lieu</p>
+        <a href="#" class="arrow-right">
+          >
+        </a>
+    </div>
+    <hr style="height:1px; background-color:#afb7cf ;">
+    <div class="flex-items justify-content-between">
+        <p class="Lieu-text">Budget</p>
+        <a href="#" class="arrow-right">
+             >
+        </a>
+    </div>
+    <hr style="height:1px; background-color:#afb7cf ;">
+    <div class="flex-items justify-content-between">
+        <p class="Lieu-text">Catégorie</p>
+        <a href="#" class="arrow-right">
+            >
+        </a>
+    </div>
+
+    </section>
+    <!-- end uplode popuo  -->
+    
+
     <!-- js files  -->
     <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/handelPopups.js"></script>
   </body>
 </html>
