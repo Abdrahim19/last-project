@@ -89,6 +89,7 @@ textarea {
   border:none;
   background-color: inherit;
   outline: none;
+  cursor: pointer;
 }
 textarea {
     resize: none;

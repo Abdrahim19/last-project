@@ -356,6 +356,10 @@ font-size: 16px;
 font-weight: 600;
 line-height: 20px;
 margin-inline: auto;
+transition: .5;
+&:hover {
+  background-color: var(--clr-blue-gray);
+}
 }
 
 
@@ -427,6 +431,7 @@ margin-inline: auto;
   background-color: white;
   font-size:clamp(8px ,4vw , 1rem);
   font-weight: 400;
+  cursor: pointer;
   img {
     height:clamp(1.5rem ,4vw ,25px );
     aspect-ratio: 1;    
